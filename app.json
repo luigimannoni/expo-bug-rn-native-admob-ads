@@ -1,0 +1,17 @@
+{
+  "expo": {
+    "name": "react-native-admob-native-ads expo bug",
+    "slug": "expo-native-ads",
+    "owner": "luigimannoni",
+    "privacy": "private",
+    "version": "0.0.1",
+    "platforms": [
+      "android"
+    ],
+    "orientation": "portrait",
+    "userInterfaceStyle": "light",
+    "assetBundlePatterns": [
+      "**/*"
+    ]
+  }
+}
