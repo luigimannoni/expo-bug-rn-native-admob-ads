@@ -4,7 +4,7 @@
     "android": "expo run:android",
     "ios": "expo run:ios",
     "web": "expo start --web",
-    "start": "react-native start"
+    "start": "expo start --dev-client"
   },
   "dependencies": {
     "expo": "~43.0.0",
@@ -19,7 +19,9 @@
     "react-native-safe-area-context": "3.3.2",
     "react-native-screens": "~3.8.0",
     "react-native-vector-icons": "^9.0.0",
-    "react-native-web": "0.17.1"
+    "react-native-web": "0.17.1",
+    "expo-splash-screen": "~0.13.5",
+    "expo-updates": "~0.10.13"
   },
   "devDependencies": {
     "@babel/core": "^7.12.9",
@@ -30,5 +32,7 @@
     "eslint-plugin-react": "^7.26.1",
     "eslint-plugin-react-hooks": "^4.2.0"
   },
-  "private": true
+  "private": true,
+  "name": "native-admob-bug",
+  "version": "1.0.0"
 }
